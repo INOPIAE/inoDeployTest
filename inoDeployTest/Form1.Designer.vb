@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.CmdTest = New System.Windows.Forms.Button()
+        Me.CmdClose = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'CmdTest
@@ -34,11 +35,21 @@ Partial Class Form1
         Me.CmdTest.Text = "Test"
         Me.CmdTest.UseVisualStyleBackColor = True
         '
+        'CmdClose
+        '
+        Me.CmdClose.Location = New System.Drawing.Point(290, 49)
+        Me.CmdClose.Name = "CmdClose"
+        Me.CmdClose.Size = New System.Drawing.Size(75, 23)
+        Me.CmdClose.TabIndex = 1
+        Me.CmdClose.Text = "Close"
+        Me.CmdClose.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(472, 169)
+        Me.Controls.Add(Me.CmdClose)
         Me.Controls.Add(Me.CmdTest)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -47,4 +58,5 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents CmdTest As Button
+    Friend WithEvents CmdClose As Button
 End Class
