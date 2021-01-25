@@ -28,7 +28,7 @@ Partial Class Form1
         '
         'CmdTest
         '
-        Me.CmdTest.Location = New System.Drawing.Point(165, 65)
+        Me.CmdTest.Location = New System.Drawing.Point(96, 69)
         Me.CmdTest.Name = "CmdTest"
         Me.CmdTest.Size = New System.Drawing.Size(75, 23)
         Me.CmdTest.TabIndex = 0
@@ -37,7 +37,7 @@ Partial Class Form1
         '
         'CmdClose
         '
-        Me.CmdClose.Location = New System.Drawing.Point(290, 49)
+        Me.CmdClose.Location = New System.Drawing.Point(284, 69)
         Me.CmdClose.Name = "CmdClose"
         Me.CmdClose.Size = New System.Drawing.Size(75, 23)
         Me.CmdClose.TabIndex = 1
